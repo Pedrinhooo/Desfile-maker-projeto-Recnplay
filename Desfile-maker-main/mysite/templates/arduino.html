@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../static/style.css" />
+    <link rel="stylesheet" href="../static/pecas.css">
+    <link rel="stylesheet" type="text/css" href="../static/arduino.css">
+
+    <title>Rec'n'Play 22</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+
+            <div id="logo">
+                <a href="https://recnplay.pe" target="_blank"><img id="logorecplay"
+                        src="../static/imgs/logo rec'n'play.png" alt=""></a>
+            </div>
+            <button class="toggle-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span></button>
+            <div class="menu-hamburguer">
+                <ul>
+                    <li><a href="/">INÍCIO</a></li>
+                    <li>
+                        <a href="/galeria">GALERIA DE PEÇAS</a>
+                    </li>
+                    <li>
+                        <a href="/sobrenos">SOBRE NÓS</a>
+                    </li>
+                    <li>
+                        <a href="#contatos" class="contatos-link">CONTATO</a>
+                    </li>
+                    <li><a href="/votacao">VOTE AQUI</a></li>
+                    <li><a href="/cardin">PIERRE CARDIN</a></li>
+                    <li><a href="/arduino">MANEQUIM</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <div id="basedosite">
+        <section id="pecas">
+            <img src="../static/imgs-roupas/1.png" alt="look1" id="lookDestaque">
+            <h1 style="text-decoration-color: #B926ED;"></h1>
+            <h2>Nome do Autor:</h2>
+            <p></p>
+            <h2>Materiais Utilizados na Peças:</h2>
+            <p></p>
+            <h2>Inspiracao:</h2>
+            <p></p>
+            <h2>Conceito:</h2>
+            <p></p>
+            <h2>Processo de Criacao:</h2>
+            <p>.</p>
+            <h2>Como ela associa as culturas:</h2>
+            <p></p>
+            <h2>Nome da equipe de confeccão:</h2>
+            <p></p>
+            <h2>Nome da Modelo:</h2>
+            <p></p>
+            <br>
+            <br>
+            <h3 style="text-decoration-color: #B926ED;">Outras Pecas:</h3>
+            <br>
+                <div class="container">
+                    <div class="gallery-wrapper">
+                        <div class="interação">
+                            
+                         </div>
+                    </div>
+                </div>
+            <br>
+            <hr>
+            <form class="colar" action="/setamodelocolar" method="POST">
+                <button type="submit" class="button button-on\" name="colar" value="colar">COLAR</button>
+            </form>
+            <form class="janela" action="/setamodelojanela" method="POST">
+                <button type="submit" class="button button-on\" name="janela" value="janela">JANELA</button>
+            </form>
+            <form class="olhos" action="/setamodeloolhos" method="POST">
+                <button type="submit" class="button button-on\" name="olhos" value="olhos">OLHOS</button>
+            </form>
+            <form class="todos" action="/setamodelotodos" method="POST">
+                <button type="submit" class="button button-on\" name="todos" value="todos">TODOS</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <br>
+        <br>
+        <div class="contatos">
+            <div class="contato-senac">
+                <h2 style="color: white; text-decoration-color: #a6ff00;">Faculdade SENAC</h2>
+                <br>
+                <div class="icones-redes">
+                    <ul>
+                        <li><a href="https://www.instagram.com/senacpe/" target="_blank"><i
+                                    class="fab fa-instagram icon"></i> </a></li>
+                        <li><a href="https://www.linkedin.com/company/senacpe/" target="_blank"><i
+                                    class="fab fa-linkedin-in icon"></i></a></li>
+                    </ul>
+                </div>
+                <br>
+                <div class="info-contatos">
+                    <h4>Endereço</h4>
+                    <p>Rua Marquês do Pombal, 57 <br>
+                        CEP 50100-170 <br>
+                        Santo Amaro – Recife/PE <br>
+                    </p>
+                    <h4>Telefone:</h4>
+                    <p>0800 081 1688</p>
+                </div>
+                <br>
+            </div>
+            <div class="contato-recnplay">
+                <h2 style="color: white; text-decoration-color: #a6ff00;">Rec 'n' Play</h2>
+                <br>
+                <div class="icones-redes">
+                    <ul>
+                        <li><a href="https://www.instagram.com/recnplayfestival/" target="_blank"><i
+                                    class="fab fa-instagram icon"></i> </a></li>
+                        <li><a href="https://twitter.com/recnplay_br" target="_blank"><i
+                                    class="fab fa-twitter icon"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/rec-n-play/" target="_blank"><i
+                                    class="fab fa-linkedin-in icon"></i></a></li>
+                    </ul>
+                </div>
+                <br>
+                <div class="info-contatos">
+                    <h4>Endereço</h4>
+                    <p>Rua do Bom Jesus, 227 <br>
+                        CEP: 50030-170 <br>
+                        Recife/PE <br>
+                        Proximo ao Paço do Frevo
+                    </p>
+                </div>
+                <br>
+            </div>
+        </div>
+        <br>
+        <div class="links-uteis">
+            <h5>Senac em Outros Projetos: </h5>
+            <ul>
+                <li><a href="#" style="color: #a6ff00;">O Music Box</a></li>
+                <li><a href="#" style="color: #7bff00;">O Manguebeat</a></li>
+                <li><a href="#" style="color: #2bff00;">Sobre nós</a></li>
+                <li><a href="https://faculdadesenacpe.edu.br/" target="_blank" style="color: #00ff15;">Site Faculdade
+                        Senac-PE</a></li>
+                <li><a href="#" target="_blank" style="color: #00ff22;">Site Oficial Senac no Rec'N'Play</a></li>
+        </div>
+        <br>
+        <div class="direitos-autorais">
+            <h5>&copy; Copyright <strong><span>Faculdade Senac</span></strong>. All Rights Reserved</h5>
+        </div>
+        <br>
+        <div id="logo-senac">
+            <a href="https://faculdadesenacpe.edu.br/" target="_blank">
+                <img class="logosenac" src="../static/imgs/logo_mono 2.svg" alt="">
+            </a>
+        </div>
+        <br>
+    </footer>
+    <script>
+        $(document).on('submit', '.colar', function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: '/setamodelocolar',
+                data: {
+                    colar: $(".colar").val()
+                }
+            })
+        });
+        $(document).on('submit', '.janela', function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: '/setamodelojanela',
+                data: {
+                    janela: $(".janela").val()
+                }
+            })
+        });
+        $(document).on('submit', '.olhos', function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: '/setamodeloolhos',
+                data: {
+                    olhos: $(".olhos").val()
+                }
+            })
+        });
+        $(document).on('submit', '.todos', function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: '/setamodelotodos',
+                data: {
+                    todos: $(".todos").val()
+                }
+            })
+        });
+    </script>
+    <script src="../static/curtida.js"></script>
+    <script src="../static/menu.js"></script>
+    <script src="../static/carousel.js"></script>
+    <script src="../static/pecas.js"></script>
+</body>
+<
