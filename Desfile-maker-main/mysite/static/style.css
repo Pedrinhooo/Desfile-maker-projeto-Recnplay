@@ -81,6 +81,8 @@ ul {
     top:   -150vh;
     height: 92vh;
     background-color: rgba(0, 0, 0, 0.85);
+    color: #0077b5;
+    display: flexbox !important;
     position: absolute;
     transition: all .7s ease-in-out;
 }
